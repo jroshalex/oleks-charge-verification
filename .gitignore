@@ -1,0 +1,11 @@
+syntax: glob
+# Whitelist style .gitignore
+
+*
+!/**/
+
+#include the following
+!*.[pP][cC][bB][dD][oO][cC]
+!*.[sS][cC][hH][dD][oO][cC]
+!*.[rR][uU][lL]
+!.gitignore
